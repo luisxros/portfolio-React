@@ -1,4 +1,5 @@
 import React from 'react';
+import Luis from '../../images/Luis.jpg';
 import './About.css';
 
 
@@ -6,8 +7,8 @@ function About(props) {
     return(
         <div className="About" id="1">
             <h1>About Me:</h1>
-            <div className="img">
-                <img src=""/>
+            <div>
+                <img src={Luis} className="photo" alt="Luis"/>
             </div>
             <div className="info">
             <p>

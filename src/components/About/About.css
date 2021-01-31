@@ -6,6 +6,12 @@
     flex-direction: column;
 }
 
+.photo {
+    border: 1px solid dodgerblue;
+    border-radius: 10px ;
+    width: 200px;
+    height: 250px;
+}
 
 
 
