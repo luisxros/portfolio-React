@@ -1,15 +1,21 @@
 .Header {
-    background-color: dodgerblue; 
+    /* background-color: dodgerblue;  */
     height: 300px;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
 
 }
 
 .Header a {
     text-decoration: none;
-    color: white;
+    color: black;
+    border: 2px solid rgba(24, 91, 136, 0.979);
+    border-radius: 10px;
+    padding: 5px;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
 .Name {
@@ -24,5 +30,4 @@
     display: flex;
     justify-content: space-evenly;
     font-size: 20px;
-    border: 1px solid black;
 }
