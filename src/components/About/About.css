@@ -7,10 +7,14 @@
 }
 
 .photo {
-    border: 1px solid dodgerblue;
+    border: 5px solid white;
     border-radius: 10px ;
     width: 200px;
     height: 250px;
+}
+
+.About p {
+    width: 60%;
 }
 
 

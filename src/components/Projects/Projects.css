@@ -5,3 +5,53 @@
     align-items: center;
     flex-direction: column;
 }
+
+.project1, .project2, .project3, .project4 {
+    width: 350px;
+    height: 200px;
+    border: 5px solid white ;
+    border-radius: 10px;
+}
+
+.Super {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.Post {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.Trending {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.Tune {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.Projects h5 {
+    font-size: 25px;
+    margin: 10px;
+}
+
+.Projects p {
+    font-size: 20px;
+    margin: 10px;
+    width: 60%;
+}
