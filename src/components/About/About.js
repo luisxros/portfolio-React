@@ -5,7 +5,7 @@ import './About.css';
 function About(props) {
     return(
         <div className="About" id="1">
-            <h1>About Me</h1>
+            <h1>About Me:</h1>
             <div className="img">
                 <img src=""/>
             </div>

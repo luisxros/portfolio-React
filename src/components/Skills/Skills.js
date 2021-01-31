@@ -7,8 +7,8 @@ function Skills(props) {
             <h1>Software Skills:</h1>
             <div className="info">
                 <p>
-                    JavaScript, React.js, React Native, Vanilla Javascript, JQuery, HTML5, CSS3, SASS, Ruby, Ruby on Rails, Bootstrap, Styled-Components, Trello, Heroku, PostgreSQL, SQL,  Postman,  Express, Node.js, MongoDB, Mongoose,  Git, GitHub, Microsoft Office(Word, Excel, PowerPoint, etc.) |, SCRUM, Agile 
-            </p>
+                | JavaScript | React.js | React Native | Vanilla Javascript | JQuery | HTML5 | CSS3 | SASS | Ruby | Ruby on Rails | Bootstrap | Styled-Components | Trello | Heroku | PostgreSQL | SQL | Postman | Express | Node.js | MongoDB | Mongoose | Git | GitHub | SCRUM | Agile | 
+                </p>
             </div>
         </div>
     );
