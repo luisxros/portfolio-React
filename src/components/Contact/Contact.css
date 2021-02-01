@@ -1,9 +1,9 @@
 .Contact {
-    background-color: aqua;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    color: cadetblue;
 }
 
 .info4 {
@@ -16,7 +16,7 @@
 
 .Contact a {
     text-decoration: none;
-    color: black;
+    color: white;
     padding: 5px;
     margin-left: 10px;
     margin-right: 10px;

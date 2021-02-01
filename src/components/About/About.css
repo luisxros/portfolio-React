@@ -1,13 +1,13 @@
-.About {
-    background-color: aqua;
+.About { 
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    color: cadetblue;
 }
 
 .photo {
-    border: 5px solid white;
+    border: 5px solid cadetblue;
     border-radius: 10px ;
     width: 200px;
     height: 250px;
@@ -15,6 +15,7 @@
 
 .About p {
     width: 60%;
+    color: white;
 }
 
 
