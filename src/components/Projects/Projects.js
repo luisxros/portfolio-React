@@ -1,6 +1,9 @@
 import React from 'react';
 import './Projects.css'
 
+import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+
 import Super from '../../images/super-information.png';
 import Post from '../../images/post-it.png';
 import Trending from '../../images/trending.png'
