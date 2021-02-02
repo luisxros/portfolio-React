@@ -1,9 +1,12 @@
 import React from 'react';
 import './Projects.css'
+
 import Super from '../../images/super-information.png';
 import Post from '../../images/post-it.png';
 import Trending from '../../images/trending.png'
 import Tune from '../../images/tune-it-up.png';
+
+import  ReactPlayer from 'react-player'
 
 function Projects(props) {
     return(
@@ -16,7 +19,7 @@ function Projects(props) {
                 <img src={Super} className="project1" alt="Super-Information"/>
             </a>
                 <p>
-                Web app that displays heroes and villains information using a superhero API
+                Web app that displays heroes and villains information using a superhero API.
                 </p>
             </div>
 
@@ -37,7 +40,7 @@ function Projects(props) {
                     <img src={Trending} className="project3" alt="Trending"/>
                 </a>
                 <p>
-                Web application for users to see the latest trending movies & tv shows built in an  agile sprint
+                Web application for users to see the latest trending movies & tv shows built in an  agile sprint.
                 </p>
             </div>
 
@@ -48,9 +51,34 @@ function Projects(props) {
                     <img src={Tune} className="project4" alt="Tune-it-up"/>
                 </a>
                 <p>
-                    A Web app that combines a Rails backend with a React front end. A user can use Tune It Up to keep track of and save his, her, or their favorite songs!
+                A group collaboration project created by Luis Rosario, Deanna Norman, and Zoë Owens. 
+                Web app that combines a Rails backend with a React front end. A user can use Tune It Up to keep track of and save their favorite songs!
+
                 </p>
             </div>
+
+            <div className="Meals">
+                <a href="https://expo.io/@luisxros/projects/meals-app" target="_blank" alt="Meals" >
+                    <h5>MEals App:</h5>
+                </a>
+                <div>
+                    <ReactPlayer
+                        className="project5" 
+                        url="https://www.youtube.com/watch?v=OJfIAImlrEg"
+                        width="350px"
+                        height="200px"
+                        config={{
+                            youtube: {
+                              playerVars: { showinfo: 1 }
+                            }}}
+                    />
+                </div>
+                <p>
+                A mobile application where the user can see meals,their instructions & steps on how to make them.
+                </p>
+
+            </div>
+
         </div>
     );
 }
