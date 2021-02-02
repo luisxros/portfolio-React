@@ -32,6 +32,10 @@ function Projects(props) {
                             }}}/>
                 </div>
 
+                <div className="skill">
+                    | React Native | Expo |
+                </div>
+
                 <div className="git">
                 <a href="https://github.com/luisxros/meals-app" target="_blank"> <FontAwesomeIcon icon={faGithub} /></a>
                 </div>
@@ -47,7 +51,10 @@ function Projects(props) {
                 <h5>Trending:</h5>
                 <img src={Trending} className="project3" alt="Trending"/>
                 </a>
-              
+
+                <div className="skill">
+                    | React.JS | Movies API | Express.JS |
+                </div>
 
                 <div className="git">
                 <a href="https://github.com/luisxros/trending-front-end" target="_blank"> <FontAwesomeIcon icon={faGithub} /></a>
@@ -64,7 +71,9 @@ function Projects(props) {
                 <h5>Post-It:</h5>
                 <img src={Post} className="project2" alt="Post-it"/>
             </a>
-                
+                <div className="skill">
+                    | Express.JS | Node.JS |
+                </div>
 
                 <div className="git">
                 <a href="https://github.com/luisxros/post-it" target="_blank"> <FontAwesomeIcon icon={faGithub} /></a>
@@ -81,7 +90,10 @@ function Projects(props) {
                 <h5>Super Information:</h5>
                 <img src={Super} className="project1" alt="Super-Information"/>
             </a>
-               
+
+                <div className="skill">
+                    | JavaScript | HTML5 | CSS3 |
+                </div>
 
                 <div className="git">
                 <a href="https://github.com/luisxros/super-information" target="_blank"> <FontAwesomeIcon icon={faGithub} /></a>
@@ -102,6 +114,10 @@ function Projects(props) {
                     <h5>Tune-it-up:</h5>
                     <img src={Tune} className="project4" alt="Tune-it-up"/>
                 </a>
+
+                <div className="skill">
+                    | Ruby on Rails | React.JS |
+                </div>
               
                 <div className="git">
                     <a href="https://github.com/luisxros/tune-it-up-frontend" target="_blank"> <FontAwesomeIcon icon={faGithub} /></a>
