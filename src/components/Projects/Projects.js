@@ -29,8 +29,11 @@ function Projects(props) {
                         config={{
                             youtube: {
                               playerVars: { showinfo: 1 }
-                            }}}
-                    />
+                            }}}/>
+                </div>
+
+                <div className="git">
+                <a href="https://github.com/luisxros/meals-app" target="_blank"> <FontAwesomeIcon icon={faGithub} /></a>
                 </div>
                 <p>
                 A mobile application where the user can see meals,their instructions & steps on how to make them.
@@ -44,9 +47,16 @@ function Projects(props) {
                 <h5>Trending:</h5>
                 <img src={Trending} className="project3" alt="Trending"/>
                 </a>
+              
+
+                <div className="git">
+                <a href="https://github.com/luisxros/trending-front-end" target="_blank"> <FontAwesomeIcon icon={faGithub} /></a>
+                </div>
+
                 <p>
                     Web application for users to see the latest trending movies & tv shows built in an  agile sprint.
                 </p>
+
             </div>
             
             <div className="Post">
@@ -54,9 +64,16 @@ function Projects(props) {
                 <h5>Post-It:</h5>
                 <img src={Post} className="project2" alt="Post-it"/>
             </a>
+                
+
+                <div className="git">
+                <a href="https://github.com/luisxros/post-it" target="_blank"> <FontAwesomeIcon icon={faGithub} /></a>
+                </div>
+
                 <p>
                 Web application with authentication for the user to share thoughts and comment on existing posts. 
                 </p>
+                
             </div>
 
             <div className="Super">
@@ -64,9 +81,16 @@ function Projects(props) {
                 <h5>Super Information:</h5>
                 <img src={Super} className="project1" alt="Super-Information"/>
             </a>
+               
+
+                <div className="git">
+                <a href="https://github.com/luisxros/super-information" target="_blank"> <FontAwesomeIcon icon={faGithub} /></a>
+                </div>
+
                 <p>
                 Web app that displays heroes and villains information using a superhero API.
                 </p>
+
             </div>
 
 
@@ -78,11 +102,15 @@ function Projects(props) {
                     <h5>Tune-it-up:</h5>
                     <img src={Tune} className="project4" alt="Tune-it-up"/>
                 </a>
-                <p>
-                A group collaboration project created by Luis Rosario, Deanna Norman, and Zoë Owens. 
-                Web app that combines a Rails backend with a React front end. A user can use Tune It Up to keep track of and save their favorite songs!
+              
+                <div className="git">
+                    <a href="https://github.com/luisxros/tune-it-up-frontend" target="_blank"> <FontAwesomeIcon icon={faGithub} /></a>
+                </div>
 
+                <p>
+                A group collaboration where a user can use Tune It Up to keep track of and save their favorite songs 
                 </p>
+
             </div>
 
         
