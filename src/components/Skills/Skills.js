@@ -3,7 +3,7 @@ import './Skills.css'
 
 function Skills(props) {
     return(
-        <div className="Skills" id="3">
+        <div className="Skills" id="skills">
             <h1>Software Skills:</h1>
             <div className="info">
                 <p>

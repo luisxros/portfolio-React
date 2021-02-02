@@ -13,10 +13,10 @@ function Header(props) {
             </div>
             <nav>
                 <ul className='NavLinks'>
-                    <li><Link to='#1'>About</Link></li>
-                    <li><Link to='#2'>Projects</Link></li>
-                    <li><Link to='#3'>Skills</Link></li>
-                    <li><Link to='#4'>Contact</Link></li>
+                    <li><Link to='#about'>About</Link></li>
+                    <li><Link to='#skills'>Skills</Link></li>
+                    <li><Link to='#projects'>Projects</Link></li>
+                    <li><Link to='#contact'>Contact</Link></li>
                 </ul>
             </nav>
         </header>

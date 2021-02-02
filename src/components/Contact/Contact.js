@@ -6,7 +6,7 @@ import './Contact.css';
 
 function Contact(props) {
     return(
-        <div className="Contact" id="4">
+        <div className="Contact" id="contact">
             <h1>Contact:</h1>
             <div className="info4">
                <a href="https://www.linkedin.com/in/luisxrosario/" target="_blank"><FontAwesomeIcon icon={faLinkedin} /></a>
